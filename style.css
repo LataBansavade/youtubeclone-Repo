@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* ===============Navbar=========================== */
+.navbar {
+  background: var(--Background-Color, #212121);
+  padding: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0px;
+}
+.searchbar {
+  display: flex;
+  /* border: 2px solid gold; */
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 20px;
+}
+#inputTag {
+  padding: 10px 80px;
+  border-radius: 2px 0px 0px 2px;
+  background: #121212;
+  color: var(--Gray-Color, #aaa);
+
+  border: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#searchbtn {
+  padding: 11px 20px;
+  background: #303030;
+  border: none;
+}
+.mic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+  border-radius: 50%;
+  background: var(--Black, #000);
+  /* border: 2px solid greenyellow; */
+}
+
+/* ================= Main-Div ================================================================= */
+
+.Mainpage {
+  display: flex;
+  flex-direction: row;
+}
+
+.LeftDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: var(--Background-Color, #212121);
+  /* border: 2px solid red; */
+  color: var(--White-Color, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  overflow-y: scroll;
+  height: 91vh;
+}
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  opacity: 0.1;
+}
+.menu {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+}
+.LeftDiv p {
+  padding: 10px 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: var(--White-Color, #fff);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* /////////////////////////////////////////////////////////////////// */
+.RightDiv {
+  display: flex;
+  flex-direction: column;
+  flex: 5;
+  /* border: 2px solid greenyellow; */
+  height: 90vh;
+}
+.Right-Top {
+  display: flex;
+  gap: 15px;
+  background: var(--border-color, #303030);
+  padding: 10px 0px;
+  position: sticky;
+  top: 71px;
+}
+.itemBtn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 32px;
+  border: 0.3px solid var(--Gray-Color, #aaa);
+  background: var(--border-color, #303030);
+}
+.allBtn {
+  border-radius: 32px;
+  background: #fff;
+  padding: 10px 20px;
+  color: #030303;
+  border: none;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+#Right-Bottom {
+  border: 2px solid rgb(153, 10, 100);
+  height: 90vh;
+  overflow-y: scroll;
+  background: var(--Black, #000);
+}
+#All-Cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+#card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  padding: 0px 13px;
+  height: 270px;
+  width: 250px;
+  margin: 20px;
+  align-items: center;
+}
+.card-Bottom {
+  display: flex;
+  padding: 5px 0px;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--White-Color, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#card p{
+  color: white;
+}
